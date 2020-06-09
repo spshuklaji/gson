@@ -1,4 +1,9 @@
-build:
+name: FirstISVWorkflow
+
+on: push
+
+jobs:
+  build:
     runs-on: ubuntu-latest
     name: ISV test
     steps:
